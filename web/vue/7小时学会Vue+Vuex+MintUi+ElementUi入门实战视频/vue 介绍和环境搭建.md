@@ -14,7 +14,8 @@ boeving@mint19:~$ npm -v
 boeving@mint19:~$ 
 ```
 
-配置npm仓库
+## 配置npm仓库
+
 因为国内的网络环境，直接从npm官方源安装软件包速度会比较慢，甚至导致安装不成功。
 我们可以安装nrm工具，用于管理软件源。
 
@@ -39,3 +40,20 @@ $ nrm use taobao
                         
 Registry has been set to: https://registry.npm.taobao.org/
 ```
+
+
+配置代理
+
+另外，如果在特定网络环境下需要配置代理的话，可以使用如下命令配置。
+
+```
+$ npm config set proxy http://127.0.0.1:3128
+$ npm config set http-proxy http://127.0.0.1:3128
+$ npm config set https-proxy https://127.0.0.1:3128
+```
+
+
+
+
+
+
