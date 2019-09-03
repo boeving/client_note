@@ -2,7 +2,9 @@
 
 # 环境搭建
 
-nodejs
+## 安装nodejs
+
+`apt-get install nodejs`
 
 ```
 boeving@mint19:~$ nodejs -v
