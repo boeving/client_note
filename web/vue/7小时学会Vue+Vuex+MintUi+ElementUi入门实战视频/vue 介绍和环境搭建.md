@@ -59,7 +59,12 @@ $ npm config set https-proxy https://127.0.0.1:3128
 
 `npm install --global vue-cli`
 
-
+确认安装成功
+```
+boeving@mint19:~$ npm list|grep vue
+└─┬ vue-cli@2.9.6
+boeving@mint19:~$ 
+```
 
 
 
