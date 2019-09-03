@@ -55,7 +55,12 @@ $ npm config set https-proxy https://127.0.0.1:3128
 
 ## 搭建vue 开发环境 
 
-安装 vue的脚
+安装 vue的脚手架工具-vue 命令行工具
+
+`npm install --global vue-cli`
+
+
+
 
 
 
