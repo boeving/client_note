@@ -96,6 +96,9 @@ boeving@mint19:/bighome/mycode/html$ vue init webpack vuedemo
 
 
 ＊如果创建不成功，就用cnpm install
+cd project-name
+
+
 
 运行
 npm run dev
@@ -103,4 +106,5 @@ npm run dev
 
 ## 第二种创建项目的方式
 
-vue init 
+vue init webpack-simple [project-name]
+
