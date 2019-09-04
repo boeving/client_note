@@ -253,4 +253,27 @@ webpack output is served from /dist/
 `"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0 --port 8082"`
 
 
-** 第一种 webpack 方式创建的项目要修改运行端口，在 config/index.js 中修改 module.exports {dev:{port:8080}} 
+** 第一种 webpack 方式创建的项目要修改运行端口，在 config/index.js 中修改 module.exports {dev:{port:8080}} 信息就可以
+
+```
+'use strict'
+// Template version: 1.3.1
+// see http://vuejs-templates.github.io/webpack for documentation.
+
+const path = require('path')
+
+module.exports = {
+  dev: {
+
+    // Paths
+    assetsSubDirectory: 'static',
+    assetsPublicPath: '/',
+    proxyTable: {},
+
+    // Various Dev Server settings
+    host: 'localhost', // can be overwritten by process.env.HOST
+    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+   
+```
+
+
