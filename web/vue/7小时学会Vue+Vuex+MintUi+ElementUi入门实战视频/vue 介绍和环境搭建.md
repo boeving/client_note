@@ -135,3 +135,23 @@ cnpm install / npm install
 
 npm run dev
 
+```
+boeving@mint19:/bighome/mycode/html$ vue init webpack-simple vuedemo2
+
+? Project name vuedemo2
+? Project description A Vue.js project
+? Author 
+? License MIT
+? Use sass? Yes
+
+   vue-cli · Generated "vuedemo2".
+
+   To get started:
+   
+     cd vuedemo2
+     npm install
+     npm run dev
+
+boeving@mint19:/bighome/mycode/html$
+```
+
