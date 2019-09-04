@@ -95,7 +95,7 @@ boeving@mint19:/bighome/mycode/html$ vue init webpack vuedemo
 ```
 
 
-＊如果创建不成功，就用 cnpm install
+＊如果创建不成功，就用 cnpm install / npm install
 cd project-name-dir
 npm run dev
 
