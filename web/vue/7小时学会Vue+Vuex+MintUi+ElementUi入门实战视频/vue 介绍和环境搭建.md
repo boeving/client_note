@@ -155,6 +155,6 @@ boeving@mint19:/bighome/mycode/html$ vue init webpack-simple vuedemo2
 boeving@mint19:/bighome/mycode/html$
 ```
 
-然后根本它的提示进入项目目录完成  npm install，
+然后根本它的提示进入项目目录完成  npm install，npm run dev
 
 我们往后的项目创建都建议使用第二种方式
