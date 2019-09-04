@@ -249,6 +249,8 @@ webpack output is served from /dist/
 
 ```
 
-另外我们还可以指定访问host 信息
+另外我们还可以指定访问host 信息，不上本机能访问
+`"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0 --port 8082"`
 
-"dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host  --port 8082",
+
+
