@@ -223,4 +223,29 @@ webpack output is served from /dist/
 
 修改配置要先停止运行中的vue项目，然后配置好后再启动
 
+```
+boeving@mint19:/bighome/mycode/html/vuedemo2$ head package.json 
+{
+  "name": "vuedemo2",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 8082",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+boeving@mint19:/bighome/mycode/html/vuedemo2$ 
+boeving@mint19:/bighome/mycode/html/vuedemo2$ npm run dev
+
+> vuedemo2@1.0.0 dev /bighome/mycode/html/vuedemo2
+> cross-env NODE_ENV=development webpack-dev-server --open --hot --port 8082
+
+Project is running at http://localhost:8082/
+webpack output is served from /dist/
+404s will fallback to /index.html
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+
+
+```
 
