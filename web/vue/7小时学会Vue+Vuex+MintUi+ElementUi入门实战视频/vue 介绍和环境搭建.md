@@ -221,4 +221,6 @@ webpack output is served from /dist/
   },
 ```
 
+修改配置要先停止运行中的vue项目，然后配置好后再启动
+
 
