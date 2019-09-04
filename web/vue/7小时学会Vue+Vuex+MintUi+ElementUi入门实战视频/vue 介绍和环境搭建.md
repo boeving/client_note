@@ -92,6 +92,25 @@ boeving@mint19:/bighome/mycode/html$ vue init webpack vuedemo
 ? Setup e2e tests with Nightwatch? Yes
 ? Should we run `npm install` for you after the project has been created? (recommended) (Use arrow keys)
 ❯ Yes, use NPM 
+...
+...
+
+npm WARN optional Skipping failed optional dependency /sane/fsevents:
+npm WARN notsup Not compatible with your operating system or architecture: fsevents@1.2.9
+npm WARN optional Skipping failed optional dependency /chokidar/fsevents:
+npm WARN notsup Not compatible with your operating system or architecture: fsevents@1.2.9
+
+# Project initialization finished!
+# ========================
+
+To get started:
+
+  cd vuedemo
+  npm run dev
+  
+Documentation can be found at https://vuejs-templates.github.io/webpack
+
+
 ```
 
 
