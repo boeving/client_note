@@ -159,6 +159,20 @@ boeving@mint19:/bighome/mycode/html$
 
 我们往后的项目创建都建议使用第二种方式
 
+```
+boeving@mint19:/bighome/mycode/html/vuedemo2$ npm run dev
+
+> vuedemo2@1.0.0 dev /bighome/mycode/html/vuedemo2
+> cross-env NODE_ENV=development webpack-dev-server --open --hot
+
+Project is running at http://localhost:8080/
+webpack output is served from /dist/
+404s will fallback to /index.html
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+
+
+```
+
 创建好后，一般它会自动启用浏览器访问 http://localhost:8080，就能看到项目了
 ![](imgs/DeepinScreenshot_select-area_20190904221544.png)
 
@@ -166,10 +180,12 @@ boeving@mint19:/bighome/mycode/html$
 
 ## 修改运行端口
 
-用webpack-simple方式创建的项目，在 package.json配置文件里，scripts => dev 参数后面
+用webpack-simple方式创建的项目，在 package.json配置文件里，scripts => dev 参数后面加上端口信息
 ```
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 8082",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
 ```
+
+
