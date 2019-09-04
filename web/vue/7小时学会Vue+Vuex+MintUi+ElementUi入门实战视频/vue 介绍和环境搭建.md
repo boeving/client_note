@@ -160,6 +160,39 @@ boeving@mint19:/bighome/mycode/html$
 我们往后的项目创建都建议使用第二种方式
 
 ```
+boeving@mint19:/bighome/mycode/html/vuedemo2$ npm install 
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated flatten@1.0.2: I wrote this module a very long time ago; you should use something else.
+npm WARN prefer global node-gyp@3.8.0 should be installed with -g
+
+> node-sass@4.12.0 install /bighome/mycode/html/vuedemo2/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.12.0/linux-x64-57_binding.node
+Download complete  ] - :
+Binary saved to /bighome/mycode/html/vuedemo2/node_modules/node-sass/vendor/linux-x64-57/binding.node
+Caching binary to /home/boeving/.npm/node-sass/4.12.0/linux-x64-57_binding.node
+
+> core-js@2.6.9 postinstall /bighome/mycode/html/vuedemo2/node_modules/core-js
+> node scripts/postinstall || echo "ignore"
+
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall /bighome/mycode/html/vuedemo2/node_modules/uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+
+> node-sass@4.12.0 postinstall /bighome/mycode/html/vuedemo2/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /bighome/mycode/html/vuedemo2/node_modules/node-sass/vendor/linux-x64-57/binding.node
+Testing binary
+Binary is fine
+vuedemo2@1.0.0 /bighome/mycode/html/vuedemo2
+├─┬ babel-core@6.26.3 
+│ ├─┬ babel-code-frame@6.26.0 
+...
+....
+
 boeving@mint19:/bighome/mycode/html/vuedemo2$ npm run dev
 
 > vuedemo2@1.0.0 dev /bighome/mycode/html/vuedemo2
