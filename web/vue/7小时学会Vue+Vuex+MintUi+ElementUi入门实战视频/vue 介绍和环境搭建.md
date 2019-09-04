@@ -58,6 +58,7 @@ $ npm config set https-proxy https://127.0.0.1:3128
 安装 vue的脚手架工具-vue 命令行工具
 
 `npm install --global vue-cli`
+`npm install --global vue`
 `npm install -g webpack`
 
 
