@@ -78,5 +78,19 @@ boeving@mint19:~$
 
 vue init webpack [project-name]
 
+```
+boeving@mint19:/bighome/mycode/html$ vue init webpack vuedemo
 
+? Project name vuedemo
+? Project description 
+? Author boevin
+? Vue build standalone
+? Install vue-router? Yes
+? Use ESLint to lint your code? No
+? Set up unit tests Yes
+? Pick a test runner jest
+? Setup e2e tests with Nightwatch? Yes
+? Should we run `npm install` for you after the project has been created? (recommended) (Use arrow keys)
+❯ Yes, use NPM 
+```
 
