@@ -283,6 +283,11 @@ module.exports = {
 + 1.按 Ctrl + P ，会出来一个输入框；
 + 2.输入 ext install;
 + 3.在第二个打开的输入框中输入 “vue”；
++ 4.选择叫 “Vue 2 Snippets”的插件，点安装；
 
 ![](imgs/DeepinScreenshot_select-area_20190904225012.png)
+
+
+----
+
 
