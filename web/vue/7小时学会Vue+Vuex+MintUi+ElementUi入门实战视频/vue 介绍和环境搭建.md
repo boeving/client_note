@@ -69,5 +69,7 @@ boeving@mint19:~$
 ## 创建项目
 
 
+vue init webpack [project-name]
+
 
 
