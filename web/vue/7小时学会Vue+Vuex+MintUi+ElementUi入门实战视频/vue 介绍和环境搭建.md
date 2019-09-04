@@ -166,7 +166,7 @@ boeving@mint19:/bighome/mycode/html$
 
 ## 修改运行端口
 
-用webpack-simple方式创建的项目，
+用webpack-simple方式创建的项目，在 package.json配置文件里，scripts => dev 参数后面
 ```
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 8082",
