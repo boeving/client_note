@@ -279,3 +279,6 @@ module.exports = {
 
 ## VS Code 安装vue语法提示插件 
 
+在 VS C
+
+![](imgs/DeepinScreenshot_select-area_20190904225012.png)
