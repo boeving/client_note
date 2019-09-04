@@ -125,6 +125,8 @@ npm run dev
 
 ## 第二种创建项目的方式
 
+这种方式创建的项目结构更轻小，创建过程更快、更简单
+
 vue init webpack-simple [project-name]
 
 cd project-name-dir
