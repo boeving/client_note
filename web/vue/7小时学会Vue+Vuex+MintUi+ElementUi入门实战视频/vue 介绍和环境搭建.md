@@ -280,8 +280,9 @@ module.exports = {
 ## VS Code 安装vue语法提示插件 
 
 在 VS Code 
-+ 1.按 Ctrl + P ；
++ 1.按 Ctrl + P ，会出来一个输入框；
 + 2.输入 ext install;
-+ 3.在vue
++ 3.在第二个打开的输入框中输入 “vue”；
 
 ![](imgs/DeepinScreenshot_select-area_20190904225012.png)
+
