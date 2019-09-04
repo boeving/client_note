@@ -277,3 +277,5 @@ module.exports = {
 ```
 
 
+## VS Code 安装vue语法提示插件 
+
