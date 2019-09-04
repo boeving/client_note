@@ -159,4 +159,9 @@ boeving@mint19:/bighome/mycode/html$
 
 我们往后的项目创建都建议使用第二种方式
 
-![]()
+创建好后，一般它会自动启用浏览器访问 http://localhost:8080，就能看到项目了
+![](imgs/DeepinScreenshot_select-area_20190904221544.png)
+
+
+
+
