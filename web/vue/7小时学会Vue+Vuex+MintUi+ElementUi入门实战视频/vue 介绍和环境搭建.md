@@ -66,6 +66,8 @@ $ npm config set https-proxy https://127.0.0.1:3128
 
 
 ```
+boeving@mint19:~$ vue -V
+2.9.6
 boeving@mint19:~$ npm list|grep vue
 └─┬ vue-cli@2.9.6
 boeving@mint19:~$ 
