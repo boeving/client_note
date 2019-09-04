@@ -164,4 +164,12 @@ boeving@mint19:/bighome/mycode/html$
 
 
 
+## 修改运行端口
 
+用webpack-simple方式创建的项目，
+```
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --port 8082",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+```
