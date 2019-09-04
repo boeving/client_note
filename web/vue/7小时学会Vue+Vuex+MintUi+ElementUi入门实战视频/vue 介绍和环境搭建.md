@@ -94,6 +94,13 @@ boeving@mint19:/bighome/mycode/html$ vue init webpack vuedemo
 ❯ Yes, use NPM 
 ```
 
+
 ＊如果创建不成功，就用cnpm install
 
-第二种
+运行
+npm run dev
+
+
+## 第二种创建项目的方式
+
+vue init 
